@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 15px;
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-family: "Markazi Text", serif;
+  color: black;
+}
+
+.series {
+  border: none;
+  border-bottom: 2px solid lightslategray;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  width: 300px;
+  padding: 5px;
+}
+
+.series::-webkit-input-placeholder {
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 15px;
+}
+
+.series:-ms-input-placeholder {
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 15px;
+}
+
+.series::-ms-input-placeholder {
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 15px;
+}
+
+.series::placeholder {
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 15px;
+}
+
+.container {
+  background-color: #ffdae0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 15px 15px 30px;
+}
+
+.favourite {
+  background-color: #d1e8ff;
+  -webkit-box-shadow: 0 0 0 2px #a52828;
+  box-shadow: 0 0 0 2px #a52828;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  color: #a52828;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.poster {
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.button {
+  background-color: #a52828;
+  padding: 4px 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Markazi Text", serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
